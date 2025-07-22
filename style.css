@@ -7,14 +7,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#texto {
+   margin: 50px; 
+   text-align: center;
+}
+
 #calcular {
     color: rgb(255, 238, 153);
     background-color: black;
-    width: 300px;
+    width: 310px;
     height: 100px;
     border-radius: 10px;
     left: 7%;
-    top: 35%;
+    top: 10%;
 }
 
 #texto {
@@ -26,29 +31,47 @@
     background-color: rgb(110, 255, 170);
     border-radius: 20px;
     width: 50%;
-    left: 20%;
+    left: 30%;
     width: 350px;
-    height: 660px;
+    height: 510px;
     background-position: center;
+    border: 10px black;
 }
 
  button{
     border-radius: 5px;
-    left: 10%;
-    top: 40%;
+    left: 8%;
+    top: 15%;
     width: 70px;
     height: 70px;
+    margin: 2px;
+    background-color: rgb(255, 249, 80);
+}
+
+button:hover {
+    color: rgb(255, 0, 0);
+    background-color: black;
+
+}
+
+.sinal {
+    background-color: rgb(68, 231, 231);
 }
 
  #igual {
     
    height: 150px;
-   top: 30%;
+   top: 2%;
+   background-color: chocolate;
     
 }
 
+#igual:hover {
+    background-color: black;
+}
+
 #vs {
-    top: 34%;
+    top: 10%;
 }
 
 
