@@ -12,19 +12,19 @@
     </div>
     <div id="fundo">
          <div id="calcular">
-        <h1>Calcule...</h1>
+        <h1 id="resultado">Calcule...</h1>
     </div>
         <tr>
             <td><button onclick="botom('1')">1</button></td>
             <td><button onclick="botom('2')">2</button></td>
             <td><button onclick="botom('3')">3</button></td>
-            <td><button class="sinal">/</button></td><br>
+            <td><button onclick="divisao('/')" class="sinal">/</button></td><br>
         </tr>
         <tr>
             <td><button onclick="botom('4')">4</button></td>
             <td><button onclick="botom('5')">5</button></td>
             <td><button onclick="botom('6')">6</button></td>
-            <td><button class="sinal">*</button></td><br>
+            <td><button onclick="vezes('*')" class="sinal">*</button></td><br>
         </tr>
         <tr>
             <td><button onclick="botom('7')">7</button></td>
@@ -33,13 +33,12 @@
         </tr>
         <tr>
             <td><button onclick="botom('0')" id="vs">0</button></td>
-            <td><button class="sinal" id="vs">+</button></td>
-            <td><button class="sinal" id="vs">-</button></td>
-            <td><button id="igual">=</button></td>
+            <td><button onclick="mais('+')" class="sinal" id="vs">+</button></td>
+            <td><button onclick="menos('-')" class="sinal" id="vs">-</button></td>
+            <td><button onclick="igualll()" id="igual">=</button></td>
         </tr>
     </div>
-    
-    <link rel="stylesheet" href="arquivo.js">
 
+    <script src = "js/arquivo.js"></script>
 </body>
 </html>
