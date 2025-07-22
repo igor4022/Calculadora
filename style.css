@@ -14,7 +14,7 @@
 
 #calcular {
     color: rgb(255, 238, 153);
-    background-color: black;
+    background-color: rgb(191, 101, 101);
     width: 310px;
     height: 100px;
     border-radius: 10px;
@@ -35,7 +35,7 @@
     width: 350px;
     height: 510px;
     background-position: center;
-    border: 10px black;
+    border: 10px rgb(0, 0, 0);
 }
 
  button{
