@@ -1,34 +1,26 @@
 let calculo = document.getElementById('calcular')
+let inp = ""
 
-function resull(){
-let resultado = document.getElementById('resultado')
-        if(resultado){
-
-        resultado.innerHTML = eval('resultado')
-
-}
-}
 function botom(num)
 
     {
-        calculo.innerHTML = num + calculo.innerHTML
+        numero = calculo.innerHTML         
+        calculo.innerHTML = numero + num
     }
 
-function vezes(ves)
+function resull(){
 
-   {
-    
-        calculo.innerHTML = ves + calculo.innerHTML
-   }
-
-function mais(mas){
-    calculo.innerHTML = mas + calculo.innerHTML
+    try {
+        calculo.innerHTML =  eval(inp)
+        if(!Number.isInteger(res)){
+            res = res.toFixed(2)
+        }
+        inp  = res
+        calculo.textContent = inp
+    } catch(error){
+        calculo.textContent = "Erro"
+        inp = ""
+    }
 }
 
-function menos(nos){
-    calculo.innerHTML = nos + calculo.innerHTML
-}
 
-function divisao(vis){
-    calculo.innerHTML = vis + calculo.innerHTML
-}

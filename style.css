@@ -12,7 +12,7 @@
    text-align: center;
 }
 
-#calcular {
+.calcular {
     color: rgb(255, 238, 153);
     background-color: rgb(191, 101, 101);
     width: 310px;
