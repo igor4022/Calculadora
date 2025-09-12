@@ -7,38 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="texto">
-        <h1>Calculadora</h1>
-    </div>
-    <div id="fundo">
-         <div id="calcular" class="calcular">
-        <h1  id="resultado">Calcule...</h1>
-    </div>
-        <tr>
-            <td><button onclick="botom('1')">1</button></td>
-            <td><button onclick="botom('2')">2</button></td>
-            <td><button onclick="botom('3')">3</button></td>
-            <td><button onclick="botom('/')" class="sinal">/</button></td><br>
-        </tr>
-        <tr>
-            <td><button onclick="botom('4')">4</button></td>
-            <td><button onclick="botom('5')">5</button></td>
-            <td><button onclick="botom('6')">6</button></td>
-            <td><button onclick="botom('*')" class="sinal">*</button></td><br>
-        </tr>
-        <tr>
-            <td><button onclick="botom('7')">7</button></td>
-            <td><button onclick="botom('8')">8</button></td>
-            <td><button onclick="botom('9')">9</button></td><br>
-        </tr>
-        <tr>
-            <td><button onclick="botom('0')" id="vs">0</button></td>
-            <td><button onclick="botom('+')" class="sinal" id="vs">+</button></td>
-            <td><button onclick="botom('-')" class="sinal" id="vs">-</button></td>
-            <td><button onclick="resull()" id="igual">=</button></td>
-        </tr>
-    </div>
-
+    <main>
+        <div id="texto">
+            <h1>Calculadora</h1>
+        </div>
+        <div id="fundo">
+            <div id="calcular" class="calcular">
+            <h1  id="resultado">Calcule...</h1>
+        </div>
+            <tr>
+                <td><button onclick="botom('1')">1</button></td>
+                <td><button onclick="botom('2')">2</button></td>
+                <td><button onclick="botom('3')">3</button></td>
+                <td><button onclick="botom('/')" class="sinal">/</button></td><br>
+            </tr>
+            <tr>
+                <td><button onclick="botom('4')">4</button></td>
+                <td><button onclick="botom('5')">5</button></td>
+                <td><button onclick="botom('6')">6</button></td>
+                <td><button onclick="botom('*')" class="sinal">*</button></td><br>
+            </tr>
+            <tr>
+                <td><button onclick="botom('7')">7</button></td>
+                <td><button onclick="botom('8')">8</button></td>
+                <td><button onclick="botom('9')">9</button></td><br>
+            </tr>
+            <tr>
+                <td><button onclick="botom('0')" id="vs">0</button></td>
+                <td><button onclick="botom('+')" class="sinal" id="vs">+</button></td>
+                <td><button onclick="botom('-')" class="sinal" id="vs">-</button></td>
+                <td><button onclick="resull()" id="igual">=</button></td>
+            </tr>
+        </div>
+    </main>
     <script src = "arquivo.js"></script>
 </body>
 </html>

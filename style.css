@@ -5,6 +5,13 @@
     padding: 0px;
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
 }
 
 #texto {
